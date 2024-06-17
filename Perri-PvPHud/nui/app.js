@@ -1,10 +1,12 @@
-window.addEventListener("message", (event) => {
-        let perri = event.data;
 
-        if (perri.action === "update") {
-            $("#vida").css({"width": Math.round(perri.vidaa) + "%", "top": 100 - Math.round(perri.vidaa) + "%"});
-    
-        }})
+window.addEventListener("message", (event) => {
+        let e = event.data;
+
+        if (e.action === "update") {
+            $("#hola").css({"width": Math.round(e.health) + "%", "top": 100 - Math.round(e.health) + "%"});
+            
+
+}})
 
 
 
