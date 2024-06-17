@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+span {
+    color: cyan;
+}
+
+* {
+    font-size: 0.9vw;
+    font-family: 'Montserrat';
+    font-size: small;
+    text-shadow: 0 0 .3vw black;
+}
+
+
+
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 85%;
+    right: 1%;
+
+
+}
+.vida {
+    display: flex;
+    flex-direction: row;
+    border-left: 1px solid rgba(96, 96, 96, 0.016);
+    border-top: 1px solid transparent;
+    background: rgba(64, 64, 63, 0.634);
+    box-shadow: 0 0 0.3vw black;
+    width: 24vw;
+    height: 1.55vw;
+    padding: 0.1vw 0.3 0.1vw 0.1vw;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+.dentro {
+    width: 100%;
+    height: 100%;
+    background: rgb(7, 185, 212);
+}
+h1 {
+    color: white;
+
+}
+
+h2 {
+    color: white;
+    font-size: .75vw;
+}
+
+.stats {
+    display: flex;
+    flex-direction: inline;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    gap: 2vw;
+}
+
+.icono {
+    font-size: .7vw;
+    color:white;
+}
+
+.kills {
+    background-color: black;
+
+}
