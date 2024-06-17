@@ -1,6 +1,6 @@
 fx_version "cerulean"
 author "perrituber"
-description "Hud made for PVP servers <3"
+description "Hud maded for PVP servers <3"
 game "gta5"
 
 lua54 'yes'
