@@ -7,13 +7,12 @@
 <body>
 
     <div class="container">
-        <div class="vida"><div class="dentro" id="hola"></div>
-    </div>
-        <h1 style="color:white;">DISCORD.GG/<span>SERVER</span></h1>
-
+        <div class="vida">
+            <div class="dentro" id="hola" :style="`width: ${health}%; top: ${100 - health}%;`"></div>
         </div>
+        <h1 style="color:white;">DISCORD.GG/<span>{{inviteCode}}</span></h1>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
